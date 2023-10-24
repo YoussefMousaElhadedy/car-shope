@@ -1,0 +1,39 @@
+.Welcome-section {
+ background-image: url(../imege/logo1.jpg);
+
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+
+  height: 480px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.welcome-title {
+  width: 50%;
+
+  font-size: 40px;
+}
+.welcome-title h1{
+  color: var(--maincolor);
+}
+/* .welcome-image {
+  height: 70%;
+  width: 42%;
+} */
+.wellcome-btn{
+  margin-top: 30px;
+  background-color: var(--brown07);
+  color: var(--maincolor);
+  height: 40px;
+  border-radius: 18px;
+  padding: 5px 8px;
+
+}
+.wellcome-btn:hover{
+  background-color: var(--brown04);
+cursor: pointer;
+}

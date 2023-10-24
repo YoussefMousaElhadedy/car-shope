@@ -1,0 +1,39 @@
+:root {
+  --maincolor: #fff;
+  --secondarycolor: #5d2424;
+  --lightbrown: #f7f3ef;
+  --brown07: rgba(149, 180, 215, 0.7);
+  --brown04: rgba(93, 36, 36, 0.4);
+  --brown02: rgba(93, 36, 36, 0.2);
+  --brown: rgba(130, 94, 92, 1);
+  --gray: rgb(128, 128, 128, 1);
+  --yellow: rgb(255, 255, 0, 1);
+
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--secondarycolor);
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+.margin-x-16 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+div img {
+  width: 100% !important;
+  height: 100% !important;
+}
+body{
+  background-color:#dcd2d2;
+}
